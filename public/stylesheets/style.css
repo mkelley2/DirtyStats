@@ -1,0 +1,91 @@
+body {
+  /*padding: 0px;*/
+  text-align: center;
+  background-color: grey;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+li {
+  list-style-type: none;
+}
+
+.merclist, #merc, #updateForm, p, h2, h1 {
+  margin-top: 2px;
+  margin-bottom: 2px;
+}
+
+.merclist {
+  width: 85%;;
+  border-style: solid;
+}
+
+#bestdiv {
+  border-top: solid;
+  border-bottom :solid;
+}
+
+
+#mercsdiv {
+  text-align: center;
+  background-color: #128820;
+  display: inline-block;
+  width: 80%;
+  float: left;
+  border-style: solid;
+  border-color: black;
+}
+
+#mercdiv {
+  border-style: solid;
+  width: 60%;
+  display:inline-block;
+  margin-top: 10px;
+}
+
+#engidiv, #medicdiv, #supportdiv, #assaultdiv, #recondiv {
+  position: relative;
+  text-align:center;
+  padding: 0px;
+}
+
+#datadiv {
+  background-color: yellow;
+  color: black;
+  display: inline-block;
+  width: 20%;
+  height: 100%;
+  float: right;
+  border-style: solid;
+}
+
+#merc {
+  display: inline-block;
+  height: 100%;
+}
+
+.row {
+  flex: 1;
+}
+
+.col {
+  display: flex;
+  padding: 10px;
+}
+
+.form-control{
+  width: 40%;
+  height: 30px;
+}
+
+ul {
+  padding: 0px;
+}
+
+#mercdata, #allstats, #bestdiv {
+  text-align: left;
+  padding-left: 20px;
+}
